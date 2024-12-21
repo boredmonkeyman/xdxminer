@@ -21,11 +21,11 @@ namespace xdxminer_lib.settings
         public static ObservableCollection<PoolConfig> GetETCPoolConfigs()
         {
             return new ObservableCollection<PoolConfig> {
-                new PoolConfig() { id = 1, url = "asia1-etc.ethermine.org", port = 10143 , isSSL =true} ,
+                new PoolConfig() { id = 1, url = "asia1-etc.ethermine.org" ,port = 10143, isSSL =true} ,
                 new PoolConfig { id = 2, url = "eu1-etc.ethermine.org" ,port = 10143, isSSL =true} ,
-                new PoolConfig { id = 3, url = "us1-etc.ethermine.org" ,port = 10143 ,isSSL =true} ,
+                new PoolConfig { id = 3, url = "us1-etc.ethermine.org" ,port = 10143, isSSL =true} ,
 
-                new PoolConfig { id = 5, url = "etc-eu1.nanopool.org" ,port = 10143 ,isSSL =true} ,
+                new PoolConfig { id = 5, url = "etc-eu1.nanopool.org" ,port = 10143, isSSL =true} ,
                 new PoolConfig { id = 6, url = "etc-us-east1.nanopool.org" ,port = 10143, isSSL =true} ,
                 new PoolConfig { id = 7, url = "etc-asia1.nanopool.org" ,port = 10143, isSSL =true} ,
 
@@ -36,7 +36,7 @@ namespace xdxminer_lib.settings
         public static ObservableCollection<PoolConfig> GetETHPoolConfigs()
         {
             return new ObservableCollection<PoolConfig> {
-                new PoolConfig() { id = 1, url = "asia1.ethermine.org", port = 5555 , isSSL =true} , 
+                new PoolConfig() { id = 1, url = "asia1.ethermine.org" ,port = 5555 , isSSL =true} , 
                 new PoolConfig { id = 2, url = "eu1.ethermine.org" ,port = 5555, isSSL =true} ,
                 new PoolConfig { id = 3, url = "us1.ethermine.org" ,port = 5555 ,isSSL =true} ,
 
